@@ -43,5 +43,6 @@
         android:layout_below="@+id/dollarAmountText"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="38dp"
-        android:id="@+id/convert" />
+        android:id="@+id/button"
+        android:onClick="convert" />
 </RelativeLayout>

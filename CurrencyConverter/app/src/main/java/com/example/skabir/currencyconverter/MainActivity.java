@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void convert (View view){
 
+
         EditText dollarAmountEditText = (EditText) findViewById(R.id.dollarAmountText);
 
         Double dollarAmountDouble = Double.parseDouble(dollarAmountEditText.getText().toString());
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(MainActivity.this, poundAmount.toString(), Toast.LENGTH_LONG).show();
 
-        Log.i("amount", dollarAmountEditText.getText().toString());
+        //Log.i("amount", dollarAmountEditText.getText().toString());
 
     }
 
